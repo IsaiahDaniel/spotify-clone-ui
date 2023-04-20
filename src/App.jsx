@@ -1,13 +1,15 @@
 import React from 'react';
-import Navbar from './components/Navbar';
-import Landing from './pages/Landing';
-
+import { Routes, Route } from 'react-router-dom';
+import Home from './pages/Home';
+import Dashboard from './pages/Dashboard';
 
 const App = () => {
   return (
     <div>
-      <Navbar />
-      <Landing />
+      <Routes>
+        <Route path='/' element={<Home />} />
+        <Route path='/dashboard' element={<Dashboard />} />
+      </Routes>
     </div>
   )
 }
