@@ -1,0 +1,9 @@
+{
+    "yaml.schemas": {
+        "file:///Users/mac/.vscode/extensions/atlassian.atlascode-3.0.3/resources/schemas/pipelines-schema.json": "bitbucket-pipelines.yml",
+        "https://json.schemastore.org/sourcehut-build-0.65.0.json": [
+            "file:///Users/mac/Documents/spotify-landing-page/.github/deploy.yml"
+        ],
+        "https://json.schemastore.org/cirrus.json": "file:///Users/mac/Documents/spotify-landing-page/github/workflows/deploy.yml"
+    }
+}
