@@ -10,7 +10,7 @@ import { FcGoogle } from "react-icons/fc";
 const Landing = () => {
   return (
     <div className='w-[90%] md:w-[40%] mx-auto flex flex-col items-center justify-center mt-10'>
-        <h3 className='font-bold'>To Continue, Login To Spotify</h3>
+        <h3 className='font-bold'>To Continue, Login To Spotify Now</h3>
         <Social Icon={BsFacebook} text="Sign In with Facebook" classNames="bg-[#3B5998] text-white" />
         <Social Icon={BsApple} text="Sign In with Facebook" classNames="bg-black text-white" />
         <Social Icon={FcGoogle} text="Sign In with Facebook" classNames="text-black" />
